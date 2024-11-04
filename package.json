@@ -48,7 +48,6 @@
     "client": "react-scripts --openssl-legacy-provider start",
     "server": "node ./server/server.js",
     "start": "npm run server | npm run client",
-    // "build": "react-scripts build",
     "build": "set SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
